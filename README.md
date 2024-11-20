@@ -14,7 +14,7 @@ Mata Kuliah : Bahasa pemrograman
 ## Fungsi-fungsi Utama
 a. `hitung_akhir` (tugas, uts, uas)
 
-•	Fungsi ini menghitung nilai akhir berdasarkan bobot:
+Fungsi ini menghitung nilai akhir berdasarkan bobot:
 
 •	Tugas: 30%
 
@@ -26,7 +26,7 @@ a. `hitung_akhir` (tugas, uts, uas)
 
 b. `tampilkan()`
 
-•	Fungsi ini menampilkan data mahasiswa dalam format tabel.
+Fungsi ini menampilkan data mahasiswa dalam format tabel.
 
 •	Jika data tersedia, fungsi mencetak setiap data mahasiswa berdasarkan NIM.
 
@@ -34,7 +34,7 @@ b. `tampilkan()`
 
 c. `tambah_ubah(nim=None)`
 
-•	Fungsi ini digunakan untuk menambahkan atau mengubah data mahasiswa.
+Fungsi ini digunakan untuk menambahkan atau mengubah data mahasiswa.
 
 •	Jika nim tidak diberikan (untuk penambahan data baru), pengguna akan diminta memasukkan NIM.
 
@@ -46,7 +46,7 @@ c. `tambah_ubah(nim=None)`
 
 d. `hapus()`
 
-•	Fungsi ini menghapus data mahasiswa berdasarkan NIM.
+Fungsi ini menghapus data mahasiswa berdasarkan NIM.
 
 •	Jika NIM ditemukan, data dihapus dari `data_mahasiswa`.
 
@@ -54,8 +54,34 @@ d. `hapus()`
 
 e. `cari()`
 
-•	Fungsi ini mencari data mahasiswa berdasarkan NIM.
+Fungsi ini mencari data mahasiswa berdasarkan NIM.
 
 •	Jika ditemukan, data mahasiswa dicetak.
 
 •	Jika tidak ditemukan, pesan kesalahan ditampilkan.
+
+## Menu dan Pengendalian Program
+a. Menu
+
+`menu` adalah dictionary yang memetakan pilihan menu ke fungsi yang sesuai:
+
+•	`"l"` untuk menampilkan data `(panggil tampilkan())`.
+
+•	`"t"` untuk menambah data `(panggil tambah_ubah())`.
+
+•	`"u"` untuk mengubah data `(panggil tambah_ubah() dengan NIM tertentu)`.
+
+•	`"h"` untuk menghapus data `(panggil hapus())`.
+
+•	`"c"` untuk mencari data `(panggil cari())`.
+
+b. Pengulangan Utama
+
+Program menggunakan perulangan while untuk menampilkan menu dan meminta input pengguna. Input pengguna:
+
+•	Huruf kecil dari menu pilihan.
+
+•	Jika pengguna memilih "k", program berhenti dan mencetak pesan terima kasih.
+
+•	Jika pilihan tidak valid, pesan kesalahan ditampilkan.
+
