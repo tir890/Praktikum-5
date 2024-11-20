@@ -14,41 +14,41 @@ Mata Kuliah : Bahasa pemrograman
 ## Fungsi-fungsi Utama
 a. `hitung_akhir` (tugas, uts, uas)
 Fungsi ini menghitung nilai akhir berdasarkan bobot:
-Tugas: 30%
+•	Tugas: 30%
 
-UTS: 35%
+•	UTS: 35%
 
-UAS: 35%
+•	UAS: 35%
 Nilai akhir dikembalikan dalam bentuk float.
 
 b. `tampilkan()`
-Fungsi ini menampilkan data mahasiswa dalam format tabel.
+•	Fungsi ini menampilkan data mahasiswa dalam format tabel.
 
-Jika data tersedia, fungsi mencetak setiap data mahasiswa berdasarkan NIM.
+•	Jika data tersedia, fungsi mencetak setiap data mahasiswa berdasarkan NIM.
 
-Jika tidak ada data, pesan "TIDAK ADA DATA" akan ditampilkan.
+•	Jika tidak ada data, pesan "TIDAK ADA DATA" akan ditampilkan.
 
 c. `tambah_ubah(nim=None)`
-Fungsi ini digunakan untuk menambahkan atau mengubah data mahasiswa.
+•	Fungsi ini digunakan untuk menambahkan atau mengubah data mahasiswa.
 
-Jika nim tidak diberikan (untuk penambahan data baru), pengguna akan diminta memasukkan NIM.
+•	Jika nim tidak diberikan (untuk penambahan data baru), pengguna akan diminta memasukkan NIM.
 
-Nama, nilai tugas, nilai UTS, dan nilai UAS diinputkan oleh pengguna.
+•	Nama, nilai tugas, nilai UTS, dan nilai UAS diinputkan oleh pengguna.
 
-Nilai akhir dihitung dengan memanggil `hitung_akhir()`.
+•	Nilai akhir dihitung dengan memanggil `hitung_akhir()`.
 
-Data disimpan ke dalam dictionary `data_mahasiswa` dengan NIM sebagai kunci.
+•	Data disimpan ke dalam dictionary `data_mahasiswa` dengan NIM sebagai kunci.
 
 d. `hapus()`
-Fungsi ini menghapus data mahasiswa berdasarkan NIM.
+•	Fungsi ini menghapus data mahasiswa berdasarkan NIM.
 
-Jika NIM ditemukan, data dihapus dari `data_mahasiswa`.
+•	Jika NIM ditemukan, data dihapus dari `data_mahasiswa`.
 
-Jika NIM tidak ditemukan, pesan kesalahan ditampilkan.
+•	Jika NIM tidak ditemukan, pesan kesalahan ditampilkan.
 
 e. `cari()`
-Fungsi ini mencari data mahasiswa berdasarkan NIM.
+•	Fungsi ini mencari data mahasiswa berdasarkan NIM.
 
-Jika ditemukan, data mahasiswa dicetak.
+•	Jika ditemukan, data mahasiswa dicetak.
 
-Jika tidak ditemukan, pesan kesalahan ditampilkan.
+•	Jika tidak ditemukan, pesan kesalahan ditampilkan.
