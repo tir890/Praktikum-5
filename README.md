@@ -61,6 +61,7 @@ Fungsi ini mencari data mahasiswa berdasarkan NIM.
 •	Jika tidak ditemukan, pesan kesalahan ditampilkan.
 
 ## Menu dan Pengendalian Program
+
 a. Menu
 
 `menu` adalah dictionary yang memetakan pilihan menu ke fungsi yang sesuai:
@@ -85,3 +86,22 @@ Program menggunakan perulangan while untuk menampilkan menu dan meminta input pe
 
 •	Jika pilihan tidak valid, pesan kesalahan ditampilkan.
 
+## Cara Kerja Program
+
+Program menampilkan menu kepada pengguna.
+
+Pengguna memilih opsi:
+
+•	Lihat (L): Menampilkan semua data mahasiswa dalam bentuk tabel.
+
+•	Tambah (T): Meminta pengguna untuk memasukkan data baru.
+
+•	Ubah (U): Meminta NIM mahasiswa yang akan diubah, kemudian memungkinkan pengguna memasukkan data baru untuk NIM tersebut.
+
+•	Hapus (H): Meminta pengguna memasukkan NIM yang ingin dihapus dari data.
+
+•	Cari (C): Meminta pengguna memasukkan NIM untuk mencari data mahasiswa.
+
+•	Keluar (K): Menghentikan program.
+
+Program terus berjalan hingga pengguna memilih menu keluar.
