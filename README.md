@@ -1,1 +1,1 @@
-# labpy05
+# Praktikum 5 | Dictionary: Program Sederhana Daftar Nilai Mahasiswa
