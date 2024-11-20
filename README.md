@@ -13,15 +13,19 @@ Mata Kuliah : Bahasa pemrograman
 
 ## Fungsi-fungsi Utama
 a. `hitung_akhir` (tugas, uts, uas)
-Fungsi ini menghitung nilai akhir berdasarkan bobot:
+
+•	Fungsi ini menghitung nilai akhir berdasarkan bobot:
+
 •	Tugas: 30%
 
 •	UTS: 35%
 
 •	UAS: 35%
-Nilai akhir dikembalikan dalam bentuk float.
+
+•	Nilai akhir dikembalikan dalam bentuk float.
 
 b. `tampilkan()`
+
 •	Fungsi ini menampilkan data mahasiswa dalam format tabel.
 
 •	Jika data tersedia, fungsi mencetak setiap data mahasiswa berdasarkan NIM.
@@ -29,6 +33,7 @@ b. `tampilkan()`
 •	Jika tidak ada data, pesan "TIDAK ADA DATA" akan ditampilkan.
 
 c. `tambah_ubah(nim=None)`
+
 •	Fungsi ini digunakan untuk menambahkan atau mengubah data mahasiswa.
 
 •	Jika nim tidak diberikan (untuk penambahan data baru), pengguna akan diminta memasukkan NIM.
@@ -40,6 +45,7 @@ c. `tambah_ubah(nim=None)`
 •	Data disimpan ke dalam dictionary `data_mahasiswa` dengan NIM sebagai kunci.
 
 d. `hapus()`
+
 •	Fungsi ini menghapus data mahasiswa berdasarkan NIM.
 
 •	Jika NIM ditemukan, data dihapus dari `data_mahasiswa`.
@@ -47,6 +53,7 @@ d. `hapus()`
 •	Jika NIM tidak ditemukan, pesan kesalahan ditampilkan.
 
 e. `cari()`
+
 •	Fungsi ini mencari data mahasiswa berdasarkan NIM.
 
 •	Jika ditemukan, data mahasiswa dicetak.
