@@ -108,3 +108,7 @@ Program terus berjalan hingga pengguna memilih menu keluar.
 
 ## Hasil Kode Program
 ![foto](https://github.com/tir890/foto/blob/6aa379df4730cc419b90e37c298ce59d91699b61/Screenshot%202024-11-23%20054349.png)
+
+## Hasil Gambar Flowchart
+![foto](https://github.com/tir890/foto/blob/8b15367a36c8827db86a29fca062f56c7284f33a/Blank%20diagram%20(10).png)
+
